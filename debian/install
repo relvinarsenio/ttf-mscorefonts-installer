@@ -1,3 +1,4 @@
 cabfiles.sha256sums	/var/lib/msttcorefonts
 msfonts/* usr/share/msttcorefonts/
-debian/99-msttcorefonts-priority.conf etc/fonts/conf.avail/
+debian/90-msttcorefonts-priority.conf etc/fonts/conf.avail/
+debian/99-msttcorefonts-emoji.conf etc/fonts/conf.avail/
