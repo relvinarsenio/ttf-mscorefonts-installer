@@ -1,0 +1,19 @@
+LOCAL INSTALLATION
+------------------
+
+This version of the package installs Microsoft TrueType core fonts from a 
+local directory provided during the package build (msfonts/). These fonts 
+are sourced from a modern Windows 11 installation, providing a more 
+comprehensive and updated set than the original web core fonts.
+
+The fonts are stored in /usr/share/msttcorefonts and are symbolically 
+linked to /usr/share/fonts/truetype/msttcorefonts upon acceptance of the 
+Microsoft EULA.
+
+LIBERATION FONTS
+----------------
+
+The package fonts-liberation contains free variants of the Times,
+Arial and Courier fonts. We recommend to use that instead unless you
+specifically need one of the other fonts from this package.
+

@@ -1,0 +1,373 @@
+# msttcorefonts Brazilian Portuguese (pt_BR) debconf template translation.
+# Copyright (c) 2007 André Luís Lopes
+# This file is distributed under the same license as the msttcorefonts package.
+# André Luís Lopes <andrelop@debian.org>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: msttcorefonts\n"
+"Report-Msgid-Bugs-To: msttcorefonts@packages.debian.org\n"
+"POT-Creation-Date: 2026-03-08 05:27-0700\n"
+"PO-Revision-Date: 2004-08-21 21:46-0300\n"
+"Last-Translator: André Luís Lopes <andrelop@debian.org>\n"
+"Language-Team: Debian-BR Project <debian-l10n-portuguese@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"pt_BR utf-8\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you accept the Microsoft End User License Agreement (EULA)?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Microsoft TrueType core fonts for the Web End User License Agreement"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"IMPORTANT - READ CAREFULLY: This Microsoft End-User License Agreement "
+"(\"EULA\") is a legal agreement between you (either an individual or a "
+"single entity) and Microsoft Corporation for the Microsoft software "
+"accompanying this EULA, which includes computer software and may include "
+"associated media, printed materials, and \"on-line\" or electronic "
+"documentation (\"SOFTWARE PRODUCT\" or \"SOFTWARE\"). By exercising your "
+"rights to make and use copies of the SOFTWARE PRODUCT, you agree to be bound "
+"by the terms of this EULA. If you do not agree to the terms of this EULA, "
+"you may not use the SOFTWARE PRODUCT."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "The SOFTWARE PRODUCT is licensed, not sold."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "1. GRANT OF LICENSE. This EULA grants you the following rights:"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Installation and Use. You may install and use an unlimited number of\n"
+"  copies of the SOFTWARE PRODUCT."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Reproduction and Distribution. You may reproduce and distribute an\n"
+"  unlimited number of copies of the SOFTWARE PRODUCT; provided that each\n"
+"  copy shall be a true and complete copy, including all copyright and\n"
+"  trademark notices, and shall be accompanied by a copy of this EULA.\n"
+"  Copies of the SOFTWARE PRODUCT may not be distributed for profit either\n"
+"  on a standalone basis or included as part of your own product."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Limitations on Reverse Engineering, Decompilation, and Disassembly. You\n"
+"  may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT,\n"
+"  except and only to the extent that such activity is expressly permitted "
+"by\n"
+"  applicable law notwithstanding this limitation."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Restrictions on Alteration. You may not rename, edit or create any\n"
+"  derivative works from the SOFTWARE PRODUCT, other than subsetting when\n"
+"  embedding them in documents."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Software Transfer. You may permanently transfer all of your rights under\n"
+"  this EULA, provided the recipient agrees to the terms of this EULA."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Termination. Without prejudice to any other rights, Microsoft may\n"
+"  terminate this EULA if you fail to comply with the terms and conditions\n"
+"  of this EULA. In such event, you must destroy all copies of the SOFTWARE\n"
+"  PRODUCT and all of its component parts."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"3. COPYRIGHT. All title and copyrights in and to the SOFTWARE PRODUCT "
+"(including but not limited to any images, text, and \"applets\" incorporated "
+"into the SOFTWARE PRODUCT), the accompanying printed materials, and any "
+"copies of the SOFTWARE PRODUCT are owned by Microsoft or its suppliers. The "
+"SOFTWARE PRODUCT is protected by copyright laws and international treaty "
+"provisions. Therefore, you must treat the SOFTWARE PRODUCT like any other "
+"copyrighted material."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"4. U.S. GOVERNMENT RESTRICTED RIGHTS. The SOFTWARE PRODUCT and documentation "
+"are provided with RESTRICTED RIGHTS. Use, duplication, or disclosure by the "
+"Government is subject to restrictions as set forth in subparagraph (c)(1)"
+"(ii) of the Rights in Technical Data and Computer Software clause at DFARS "
+"252.227-7013 or subparagraphs (c)(1) and (2) of the Commercial Computer "
+"Software-Restricted Rights at 48 CFR 52.227-19, as applicable. Manufacturer "
+"is Microsoft Corporation/One Microsoft Way/Redmond, WA 98052-6399."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "5. LIMITED WARRANTY."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"NO WARRANTIES. Microsoft expressly disclaims any warranty for the SOFTWARE "
+"PRODUCT. The SOFTWARE PRODUCT and any related documentation is provided \"as "
+"is\" without warranty of any kind, either express or implied, including, "
+"without limitation, the implied warranties or merchantability, fitness for a "
+"particular purpose, or noninfringement. The entire risk arising out of use "
+"or performance of the SOFTWARE PRODUCT remains with you."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"NO LIABILITY FOR CONSEQUENTIAL DAMAGES. In no event shall Microsoft or its "
+"suppliers be liable for any damages whatsoever (including, without "
+"limitation, damages for loss of business profits, business interruption, "
+"loss of business information, or any other pecuniary loss) arising out of "
+"the use of or inability to use this Microsoft product, even if Microsoft has "
+"been advised of the possibility of such damages. Because some states/"
+"jurisdictions do not allow the exclusion or limitation of liability for "
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "6. MISCELLANEOUS."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you acquired this product in the United States, this EULA is governed by "
+"the laws of the State of Washington."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If this product was acquired outside the United States, then local law may "
+"apply."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Should you have any questions concerning this EULA, or if you desire to "
+"contact Microsoft for any reason, please contact the Microsoft subsidiary "
+"serving your country, or write: Microsoft Sales Information Center/One "
+"Microsoft Way/Redmond, WA 98052-6399."
+msgstr ""
+
+#~ msgid "Directory holding MS fonts (if already downloaded):"
+#~ msgstr "Diretórios que contém as fontes MS (caso já feito o download) :"
+
+#~ msgid ""
+#~ "If you have already downloaded Microsoft's TrueType Core Fonts for the "
+#~ "web, type the name of the directory which contains them. Those files are "
+#~ "in the Microsoft Windows self-installing format, and are named "
+#~ "andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, "
+#~ "georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe and "
+#~ "webdin32.exe."
+#~ msgstr ""
+#~ "Caso você já tenha feito o download das TrueType Core Fonts para web da "
+#~ "Microsoft, informe o nome do diretório onde você armazena essas fontes. "
+#~ "Esses arquivos estão no formato de auto-instalação do Microsft Windows e "
+#~ "são nomeados andale32.exe, arial32.exe, arialb32.exe, comic32.exe, "
+#~ "courier32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, "
+#~ "verdan32.exe e webdin32.exe."
+
+#~ msgid ""
+#~ "If you haven't yet downloaded these fonts, leave this blank and the fonts "
+#~ "will be downloaded for you. Approximately 4 MB will need to be downloaded."
+#~ msgstr ""
+#~ "Caso você ainda não tenha feito o download dessas fontes, mantenha este "
+#~ "campo em branco e o download das mesmas será feito automaticamente para "
+#~ "você. Será necessário fazer o download de aproximadamente 8MB."
+
+#~ msgid ""
+#~ "If you are not connected to the internet or do not wish to download these "
+#~ "fonts now, enter \"none\" to abort."
+#~ msgstr ""
+#~ "Caso você não esteja conectado a Internet ou não deseja fazer o download "
+#~ "dessas fontes agora, informe \"none\" para abortar."
+
+#~ msgid "Font files not found"
+#~ msgstr "Arquivos de fontes não encontrados"
+
+#~ msgid ""
+#~ "The directory you entered either did not exist, did not contain the "
+#~ "Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+#~ "installing executables, or those executables did not match the versions "
+#~ "expected by this script.  Please re-enter the directory containing the "
+#~ "Microsoft font files or enter \"none\" to abort."
+#~ msgstr ""
+#~ "O diretório que você informou não existe, não contém as fontes TrueType "
+#~ "Core para a Web auto-instaláveis da Microsoft para Windows 9x ou esses "
+#~ "executáveis não fornecem as mesmas versôes esperadas por este script. Por "
+#~ "favor, informe novamente o diretório onde estão armazenados os arquivos "
+#~ "de fontes Microsoft ou informe \"none\" para abortar."
+
+#~ msgid "Where should these files be archived (optional):"
+#~ msgstr "Onde esses arquivos devem ser armazenados (opcional) :"
+
+#~ msgid ""
+#~ "If you would like to keep a permanent archive of the compressed Windows "
+#~ "self extracting files, enter the directory where you'd like them stored.  "
+#~ "If you leave this blank, the files will be deleted after installation."
+#~ msgstr ""
+#~ "Se você deseja manter um arquivo permanente dos arquivos auto-"
+#~ "descompactáveis Windows, informe o diretório onde você gostaria de "
+#~ "armazená-los. Caso você mantenha este campo em branco, os arquivos serão "
+#~ "apagados após serem usados para instalação."
+
+#~ msgid "Mirror to download from:"
+#~ msgstr "Espelho a partir de onde fazer o download:"
+
+#~ msgid ""
+#~ "This package already contains a built-in set of mirrors, which should be "
+#~ "sufficient for most people. However, if you'd like to use a different "
+#~ "(possibly local) mirror instead, please enter the full URL to the "
+#~ "directory containing the relevant files here. If not, just leave the "
+#~ "field blank."
+#~ msgstr ""
+#~ "Este pacote já contém um conjunto de espelhos embutido, os quais devem "
+#~ "ser suficientes para a maioria das pessoas. Porém, caso você deseje "
+#~ "utilizar um espelho diferente (e possivelmente local), por favor, informe "
+#~ "aqui a URL completa para o diretório que contém os arquivos relevantes. "
+#~ "Caso não esteja interessado em fornecer um espelho diferente, "
+#~ "simplesmente deixe o campo em branco."
+
+#~ msgid "HTTP proxy to use:"
+#~ msgstr "Proxy HTTP a ser utilizado:"
+
+#~ msgid ""
+#~ "If you need to use a proxy server, please enter it here (example: http://"
+#~ "192.168.0.1:8080). This will cause the font files to be downloaded using "
+#~ "your proxy."
+#~ msgstr ""
+#~ "Caso você precise utilizar um servidor proxy, por favor, informe-o aqui "
+#~ "(exemplo: http://192.168.0.1:8080). Isto fará com que os arquivos de "
+#~ "fontes sejam obtidos utilizando seu proxy."
+
+#~ msgid "Leave this option blank if you don't use a proxy server."
+#~ msgstr ""
+#~ "Mantenha esta opção em branco caso você não utilize um servidor proxy."
+
+#~ msgid "msttcorefonts uses defoma"
+#~ msgstr "O msttcorefonts utiliza o defoma"
+
+#~ msgid ""
+#~ "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use "
+#~ "the fonts provided by this package under the X Window System, you must "
+#~ "configure it to use defoma fonts."
+#~ msgstr ""
+#~ "O msttcorefonts utiliza o Gerenciador de Fontes Debian (defoma). Caso "
+#~ "vocè deseje usar as fontes fornecidas por este pacote sob o Sistema de "
+#~ "Janelas X, você deverá configurá-lo para utilizar fontes defoma."
+
+#~ msgid ""
+#~ "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
+#~ "information, install the x-ttcidfont-conf package and consult its "
+#~ "documentation under /usr/share/doc/x-ttcidfont-conf."
+#~ msgstr ""
+#~ "A maneira mais fácil de fazê-lo é utilizar o pacote x-ttcidfont-conf. "
+#~ "Para maiores informações, instale o pacote x-ttcidfont-conf e consulte a "
+#~ "documentação do mesmo no diretório /usr/share/doc/x-ttcidfont-conf."
+
+#~ msgid ""
+#~ "For uses of msttcorefonts not related to the X Window System (e.g. "
+#~ "printing) this is not required."
+#~ msgstr ""
+#~ "Para uso do msttcorefonts não relacionado com o Sistema de Janelas X (por "
+#~ "exemplo, impressão) isso não é necessário."
+
+#~ msgid "These fonts are not free."
+#~ msgstr "Estas fontes não são livres/gratuitas."
+
+#~ msgid ""
+#~ "These fonts were provided by Microsoft \"in the interest of cross-"
+#~ "platform compatibility\". This is no longer the case, but they are still "
+#~ "available from third parties."
+#~ msgstr ""
+#~ "Estas fontes foram fornecidas pela Microsoft \"no interesse de "
+#~ "compatibilidade multiplataforma\". Este não é mais o caso, mas as mesmas "
+#~ "ainda estão são disponibilizadas por terceiros."
+
+#~ msgid ""
+#~ "You are free to download these fonts and use them for your own use, but "
+#~ "you may not redistribute them in modified form, including changes to the "
+#~ "file name or packaging format."
+#~ msgstr ""
+#~ "Você é livre para fazer o download destas fontes e usá-las para uso "
+#~ "pessoal, mas você não pode redistribuí-las em formato modificado, "
+#~ "incluíndo mudanças no nome dos arquivos ou formato de empacotamento."
+
+#~ msgid ""
+#~ "If you have already downloaded Microsoft's TrueType Core Fonts for the "
+#~ "web in Microsoft Windows self-installing form (.exe), type the name of "
+#~ "the directory which contains them.  If you haven't yet downloaded these "
+#~ "fonts, leave this blank and the fonts will be downloaded for you. "
+#~ "Approximately 4 MB will need to be downloaded.  If you are not connected "
+#~ "to the internet or do not wish to download these fonts now, enter "
+#~ "\"none\" to abort."
+#~ msgstr ""
+#~ "Se você já fez o download das Microsoft TrueType Core Fonts para a Web no "
+#~ "formato de auto-instalação Microsoft Windows (.exe), digite o nome do "
+#~ "diretório que contém as fontes. Se você ainda não fez o download das "
+#~ "mesmas, deixe esse campo em branco e o download das fontes será feito "
+#~ "para você. Aproximadamente 4 MB necessitará downloaded.  Se você não está "
+#~ "conectado a Internet ou não deseja fazer o download das fontes agora, "
+#~ "informe \"none\" para abortar."

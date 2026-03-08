@@ -1,0 +1,3 @@
+cabfiles.sha256sums	/var/lib/msttcorefonts
+msfonts/* usr/share/msttcorefonts/
+debian/99-msttcorefonts-priority.conf etc/fonts/conf.avail/

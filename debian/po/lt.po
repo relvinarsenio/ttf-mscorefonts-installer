@@ -1,0 +1,334 @@
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+# http://packages.debian.org/testing/graphics/msttcorefonts
+# sharkey@debian.org
+#
+# Translators: 
+# Mantas Kriaučiūnas <mantas@akl.lt> ;  Mykolas OK <mykolas@uzupis.com>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: msttcorefonts@packages.debian.org\n"
+"POT-Creation-Date: 2026-03-08 05:27-0700\n"
+"PO-Revision-Date: 2004-08-18 16:14+0300\n"
+"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you accept the Microsoft End User License Agreement (EULA)?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Microsoft TrueType core fonts for the Web End User License Agreement"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"IMPORTANT - READ CAREFULLY: This Microsoft End-User License Agreement "
+"(\"EULA\") is a legal agreement between you (either an individual or a "
+"single entity) and Microsoft Corporation for the Microsoft software "
+"accompanying this EULA, which includes computer software and may include "
+"associated media, printed materials, and \"on-line\" or electronic "
+"documentation (\"SOFTWARE PRODUCT\" or \"SOFTWARE\"). By exercising your "
+"rights to make and use copies of the SOFTWARE PRODUCT, you agree to be bound "
+"by the terms of this EULA. If you do not agree to the terms of this EULA, "
+"you may not use the SOFTWARE PRODUCT."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "The SOFTWARE PRODUCT is licensed, not sold."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "1. GRANT OF LICENSE. This EULA grants you the following rights:"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Installation and Use. You may install and use an unlimited number of\n"
+"  copies of the SOFTWARE PRODUCT."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Reproduction and Distribution. You may reproduce and distribute an\n"
+"  unlimited number of copies of the SOFTWARE PRODUCT; provided that each\n"
+"  copy shall be a true and complete copy, including all copyright and\n"
+"  trademark notices, and shall be accompanied by a copy of this EULA.\n"
+"  Copies of the SOFTWARE PRODUCT may not be distributed for profit either\n"
+"  on a standalone basis or included as part of your own product."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Limitations on Reverse Engineering, Decompilation, and Disassembly. You\n"
+"  may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT,\n"
+"  except and only to the extent that such activity is expressly permitted "
+"by\n"
+"  applicable law notwithstanding this limitation."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Restrictions on Alteration. You may not rename, edit or create any\n"
+"  derivative works from the SOFTWARE PRODUCT, other than subsetting when\n"
+"  embedding them in documents."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Software Transfer. You may permanently transfer all of your rights under\n"
+"  this EULA, provided the recipient agrees to the terms of this EULA."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Termination. Without prejudice to any other rights, Microsoft may\n"
+"  terminate this EULA if you fail to comply with the terms and conditions\n"
+"  of this EULA. In such event, you must destroy all copies of the SOFTWARE\n"
+"  PRODUCT and all of its component parts."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"3. COPYRIGHT. All title and copyrights in and to the SOFTWARE PRODUCT "
+"(including but not limited to any images, text, and \"applets\" incorporated "
+"into the SOFTWARE PRODUCT), the accompanying printed materials, and any "
+"copies of the SOFTWARE PRODUCT are owned by Microsoft or its suppliers. The "
+"SOFTWARE PRODUCT is protected by copyright laws and international treaty "
+"provisions. Therefore, you must treat the SOFTWARE PRODUCT like any other "
+"copyrighted material."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"4. U.S. GOVERNMENT RESTRICTED RIGHTS. The SOFTWARE PRODUCT and documentation "
+"are provided with RESTRICTED RIGHTS. Use, duplication, or disclosure by the "
+"Government is subject to restrictions as set forth in subparagraph (c)(1)"
+"(ii) of the Rights in Technical Data and Computer Software clause at DFARS "
+"252.227-7013 or subparagraphs (c)(1) and (2) of the Commercial Computer "
+"Software-Restricted Rights at 48 CFR 52.227-19, as applicable. Manufacturer "
+"is Microsoft Corporation/One Microsoft Way/Redmond, WA 98052-6399."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "5. LIMITED WARRANTY."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"NO WARRANTIES. Microsoft expressly disclaims any warranty for the SOFTWARE "
+"PRODUCT. The SOFTWARE PRODUCT and any related documentation is provided \"as "
+"is\" without warranty of any kind, either express or implied, including, "
+"without limitation, the implied warranties or merchantability, fitness for a "
+"particular purpose, or noninfringement. The entire risk arising out of use "
+"or performance of the SOFTWARE PRODUCT remains with you."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"NO LIABILITY FOR CONSEQUENTIAL DAMAGES. In no event shall Microsoft or its "
+"suppliers be liable for any damages whatsoever (including, without "
+"limitation, damages for loss of business profits, business interruption, "
+"loss of business information, or any other pecuniary loss) arising out of "
+"the use of or inability to use this Microsoft product, even if Microsoft has "
+"been advised of the possibility of such damages. Because some states/"
+"jurisdictions do not allow the exclusion or limitation of liability for "
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "6. MISCELLANEOUS."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you acquired this product in the United States, this EULA is governed by "
+"the laws of the State of Washington."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If this product was acquired outside the United States, then local law may "
+"apply."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Should you have any questions concerning this EULA, or if you desire to "
+"contact Microsoft for any reason, please contact the Microsoft subsidiary "
+"serving your country, or write: Microsoft Sales Information Center/One "
+"Microsoft Way/Redmond, WA 98052-6399."
+msgstr ""
+
+#~ msgid "Directory holding MS fonts (if already downloaded):"
+#~ msgstr ""
+#~ "Katalogas, kuriame yra MS šriftai (jei iš kur nors atsiuntėte ar "
+#~ "įsirašėte anksčiau):"
+
+#~ msgid ""
+#~ "If you have already downloaded Microsoft's TrueType Core Fonts for the "
+#~ "web, type the name of the directory which contains them. Those files are "
+#~ "in the Microsoft Windows self-installing format, and are named "
+#~ "andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, "
+#~ "georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe and "
+#~ "webdin32.exe."
+#~ msgstr ""
+#~ "Jei Jūs anksčiau atsisiuntėte ar iš kur nors nusikopijavote bazinius MS "
+#~ "TrueType šriftus, nurodykite katalogą, kuriame jie yra. Jie turi būti "
+#~ "automatiškai išsipakuojančių MS Windows archyvų (cab) formate, pavadinti "
+#~ "andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, "
+#~ "georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe ir "
+#~ "webdin32.exe."
+
+#~ msgid ""
+#~ "If you haven't yet downloaded these fonts, leave this blank and the fonts "
+#~ "will be downloaded for you. Approximately 4 MB will need to be downloaded."
+#~ msgstr ""
+#~ "Jei šriftų nesate atsisiuntę anksčiau - palikite šį lauką tuščią ir "
+#~ "šriftai bus automatiškai atsiųsti. Šriftų paketai užima apie 4 MB."
+
+#~ msgid ""
+#~ "If you are not connected to the internet or do not wish to download these "
+#~ "fonts now, enter \"none\" to abort."
+#~ msgstr ""
+#~ "Jei negalite prisijungti prie interneto arba nenorite siųstis ir įdiegti "
+#~ "šių šriftų dabar, įrašykite \"none\" ir šriftai nebus įdiegti ( galėsite "
+#~ "įdiegti vėliau, įvykdę dpkg-reconfigure msttcorefonts )."
+
+#~ msgid "Font files not found"
+#~ msgstr "Šriftų bylos nerastos"
+
+#~ msgid ""
+#~ "The directory you entered either did not exist, did not contain the "
+#~ "Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+#~ "installing executables, or those executables did not match the versions "
+#~ "expected by this script.  Please re-enter the directory containing the "
+#~ "Microsoft font files or enter \"none\" to abort."
+#~ msgstr ""
+#~ "Katalogas, kurį jūs nurodėte neegzistuoja, arba kataloge nerasti bazinių "
+#~ "MS TrueType šriftų paketai, arba paketų formatas nėra \"automatiškai "
+#~ "išsipakuojantis MS Windows archyvas\", arba paketų versija nėra palaikoma "
+#~ "šio įdiegėjo. Prašome nurodyti katalogą, kuriame yra bazinių MS TrueType "
+#~ "šriftų paketai arba įrašykite \"none\", kad nutraukti įdiegimą."
+
+#~ msgid "Where should these files be archived (optional):"
+#~ msgstr "Vieta, kur šios bylos turi būti išsaugotos (nebūtina):"
+
+#~ msgid ""
+#~ "If you would like to keep a permanent archive of the compressed Windows "
+#~ "self extracting files, enter the directory where you'd like them stored.  "
+#~ "If you leave this blank, the files will be deleted after installation."
+#~ msgstr ""
+#~ "Jeigu norite išsaugoti atsiųstus šriftų paketus (savaime išsipakuojančio "
+#~ "Windows archyvo formate), nurodykite katalogą, kur norite juos padėti. "
+#~ "Jei paliksite šį lauką tuščią, šriftų paketai bus ištrinti po įdiegimo."
+
+#~ msgid "msttcorefonts uses defoma"
+#~ msgstr "msttcorefonts naudoja DEFOMA"
+
+#, fuzzy
+#~ msgid ""
+#~ "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use "
+#~ "the fonts provided by this package under the X Window System, you must "
+#~ "configure it to use defoma fonts."
+#~ msgstr ""
+#~ "Msttcorefonts naudoja Debian šriftų tvarkymo programą DEFOMA (DEbian FOnt "
+#~ "MAnager). Šriftų panaudojimui X-Window sistemoje (grafinėje aplinkoje) "
+#~ "būtina nustatyti, kad X-Window naudotų DEFOMA šriftus."
+
+#~ msgid ""
+#~ "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
+#~ "information, install the x-ttcidfont-conf package and consult its "
+#~ "documentation under /usr/share/doc/x-ttcidfont-conf."
+#~ msgstr ""
+#~ "Paprasčiausias ir geriausias būdas tai padaryti yra naudoti x-ttcidfont-"
+#~ "conf paketą. Įdiekite x-ttcidfont-conf paketą ir nustatykite, kad grafinė "
+#~ "aplinka galėtų naudotis TrueType šriftais, kaip parašyta /usr/share/doc/x-"
+#~ "ttcidfont-conf/ kataloge esančioje dokumentacijoje (README.Debian ir kt.)"
+
+#~ msgid ""
+#~ "For uses of msttcorefonts not related to the X Window System (e.g. "
+#~ "printing) this is not required."
+#~ msgstr ""
+#~ "Šriftų msttcorefonts panaudojimui, nesusijusiam su X-Window sistema "
+#~ "(grafine aplinka), šie veiksmai nėra būtini."
+
+#~ msgid "These fonts are not free."
+#~ msgstr "Šie šriftai nėra laisvi."
+
+#~ msgid ""
+#~ "These fonts were provided by Microsoft \"in the interest of cross-"
+#~ "platform compatibility\". This is no longer the case, but they are still "
+#~ "available from third parties."
+#~ msgstr ""
+#~ "Šiuos šriftus pateikė MS \"norėdami pagerinti suderinamumą tarp "
+#~ "operacinių sistemų\". Dabar jie to nebedaro, tačiau pagal licenciją šiuos "
+#~ "šriftus galima legaliai įsigyti (parsisiųsti) iš kitų vietų."
+
+#~ msgid ""
+#~ "You are free to download these fonts and use them for your own use, but "
+#~ "you may not redistribute them in modified form, including changes to the "
+#~ "file name or packaging format."
+#~ msgstr ""
+#~ "Jūs turite teisę laisvai parsisiųsti bei nemokamai naudoti šiuos šriftus "
+#~ "savo reikmėms, tačiau neturite teisės platinti, jei ką nors pakeitėte, "
+#~ "pavyzdžiui atsiųstų bylų pavadinimus ar suspaudimo formatą."

@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "remove" ] && [ -e /var/lib/msttcorefonts/ms-fonts ]; then
+	echo "Removing Microsoft fonts..."
+	cd /usr/share/fonts/truetype/msttcorefonts && \
+		rm -f `cat /var/lib/msttcorefonts/ms-fonts`
+	rm -f /var/lib/msttcorefonts/ms-fonts
+	rm -f /etc/fonts/conf.d/99-msttcorefonts-priority.conf
+	rmdir --ignore-fail-on-non-empty /usr/share/fonts/truetype/msttcorefonts
+	dpkg-trigger --no-await /usr/share/fonts
+fi
+
+exit 0

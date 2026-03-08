@@ -1,0 +1,164 @@
+#!/bin/sh
+# Install Microsoft fonts from local msfonts directory
+#
+# Originally (C) 2000,2001 Eric Sharkey.
+# Modified to use local font files instead of downloading.
+# You may freely distribute this file under the terms of the GNU General
+# Public License, version 2 or later.
+
+#abort if anything goes wrong
+#set -e
+FONTDIR=/usr/share/fonts/truetype/msttcorefonts
+
+# Directory containing the local font files
+SCRIPTDIR="$(cd "$(dirname "$0")" && pwd)"
+
+if [ -d "$SCRIPTDIR/msfonts" ]; then
+    LOCALFONTS="$SCRIPTDIR/msfonts"
+    CHECKSUMSFILE="$SCRIPTDIR/cabfiles.sha256sums"
+else
+    LOCALFONTS="/usr/share/msttcorefonts"
+    CHECKSUMSFILE="/var/lib/msttcorefonts/cabfiles.sha256sums"
+fi
+
+
+EXITCODE=0
+
+mstt_exit_with_error() {
+    echo "$1" >&2
+    echo "The fonts are NOT installed." >&2
+    exit 1
+}
+
+if [ ! -d "$LOCALFONTS" ]; then
+    mstt_exit_with_error "Local fonts directory not found: $LOCALFONTS"
+fi
+
+if [ ! -f "$CHECKSUMSFILE" ]; then
+    mstt_exit_with_error "Checksums file not found: $CHECKSUMSFILE"
+fi
+
+# Collect all font files from the local directory
+FONTFILES=$(find "$LOCALFONTS" -maxdepth 1 -type f \( -iname '*.ttf' -o -iname '*.ttc' \) | sort)
+
+if [ -z "$FONTFILES" ]; then
+    mstt_exit_with_error "No font files found in $LOCALFONTS"
+fi
+
+# Interactive EULA acceptance if not run from debconf
+if [ -z "$DEBIAN_HAS_FRONTEND" ] && [ -t 0 ]; then
+    EULA_TEXT="IMPORTANT - READ CAREFULLY: This installation includes Microsoft TrueType
+core fonts. By installing them, you agree to the Microsoft End-user License
+Agreement (EULA).
+
+The full text of the EULA is available in:
+/usr/share/doc/ttf-mscorefonts-installer/copyright
+
+Do you accept the terms of the Microsoft EULA?"
+
+    if command -v whiptail >/dev/null 2>&1; then
+        if ! whiptail --title "Microsoft Core Fonts EULA" --yesno "$EULA_TEXT" 15 70; then
+            echo "EULA not accepted. Aborting installation."
+            exit 1
+        fi
+        echo "EULA accepted."
+    else
+        cat <<EOF
+
+$EULA_TEXT
+
+EOF
+        printf "Do you accept the terms of the EULA? [y/N] "
+        read -r response
+        case "$response" in
+            [yY][eE][sS]|[yY])
+                echo "EULA accepted."
+                ;;
+            *)
+                echo "EULA not accepted. Aborting installation."
+                exit 1
+                ;;
+        esac
+    fi
+fi
+
+cat <<EOF
+
+Installing Microsoft fonts from local directory: $LOCALFONTS
+
+These fonts were provided by Microsoft "in the interest of cross-
+platform compatibility".  This is no longer the case, but they are
+still available from third parties.
+
+You are free to download these fonts and use them for your own use,
+but you may not redistribute them in modified form, including changes
+to the file name or packaging format.
+
+EOF
+
+mkdir -p "$FONTDIR"
+mkdir -p /usr/share/doc/ttf-mscorefonts-installer
+
+INSTALLED=0
+FAILED=0
+SKIPPED=0
+FAILEDLIST=""
+SKIPPEDLIST=""
+
+for fontpath in $FONTFILES; do
+    fontfile="$(basename "$fontpath")"
+
+    # Verify checksum before installing
+    EXPECTED_SUM=$(grep "  ${fontfile}$" "$CHECKSUMSFILE" | awk '{print $1}')
+    if [ -z "$EXPECTED_SUM" ]; then
+        echo "WARNING: No checksum found for $fontfile, skipping."
+        SKIPPED=$((SKIPPED + 1))
+        SKIPPEDLIST="$SKIPPEDLIST $fontfile"
+        continue
+    fi
+
+    ACTUAL_SUM=$(sha256sum "$fontpath" | awk '{print $1}')
+    if [ "$ACTUAL_SUM" != "$EXPECTED_SUM" ]; then
+        echo "ERROR: Checksum mismatch for $fontfile"
+        echo "  Expected: $EXPECTED_SUM"
+        echo "  Got:      $ACTUAL_SUM"
+        FAILED=$((FAILED + 1))
+        FAILEDLIST="$FAILEDLIST $fontfile"
+        EXITCODE=1
+        continue
+    fi
+
+    SOURCE_ABS=$(readlink -f "$fontpath")
+    if ln -sf "$SOURCE_ABS" "$FONTDIR/$fontfile" 2>/dev/null; then
+        INSTALLED=$((INSTALLED + 1))
+        echo "$fontfile" >> /var/lib/msttcorefonts/ms-fonts.new
+    else
+        echo "ERROR: Failed to link $fontfile"
+        FAILED=$((FAILED + 1))
+        FAILEDLIST="$FAILEDLIST $fontfile"
+        EXITCODE=1
+    fi
+done
+
+if [ -f /var/lib/msttcorefonts/ms-fonts.new ]; then
+    mv /var/lib/msttcorefonts/ms-fonts.new /var/lib/msttcorefonts/ms-fonts
+fi
+
+dpkg-trigger --no-await /usr/share/fonts 2>/dev/null || true
+
+echo ""
+echo "Results: $INSTALLED installed, $FAILED failed, $SKIPPED skipped."
+
+if [ $EXITCODE = 0 ] ; then
+    echo "All $INSTALLED fonts installed successfully from local directory."
+else
+    if [ -n "$FAILEDLIST" ]; then
+        mstt_exit_with_error "The following fonts failed to install: $FAILEDLIST"
+    else
+        mstt_exit_with_error "One or more fonts could not be installed."
+    fi
+fi
+
+#DEBHELPER#
+
+exit $EXITCODE
