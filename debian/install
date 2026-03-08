@@ -1,4 +1,4 @@
-cabfiles.sha256sums	/var/lib/msttcorefonts
-msfonts/* usr/share/msttcorefonts/
+msfonts/*.[tT][tT][fF] usr/share/fonts/truetype/msttcorefonts/
+msfonts/*.[tT][tT][cC] usr/share/fonts/truetype/msttcorefonts/
 debian/90-msttcorefonts-priority.conf etc/fonts/conf.avail/
 debian/99-msttcorefonts-emoji.conf etc/fonts/conf.avail/

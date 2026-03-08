@@ -3,13 +3,10 @@ set -e
 
 . /usr/share/debconf/confmodule
 
-db_input high msttcorefonts/accepted-mscorefonts-eula || true
-db_go || true
-
 db_get msttcorefonts/accepted-mscorefonts-eula
 if [ "$RET" != "true" ]; then
-	echo "EULA not accepted" >&2
-	exit 1
+    echo "EULA not accepted, aborting installation." >&2
+    exit 1
 fi
 
 #DEBHELPER#

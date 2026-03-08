@@ -1,0 +1,2 @@
+etc/fonts/conf.avail/90-msttcorefonts-priority.conf etc/fonts/conf.d/90-msttcorefonts-priority.conf
+etc/fonts/conf.avail/99-msttcorefonts-emoji.conf etc/fonts/conf.d/99-msttcorefonts-emoji.conf

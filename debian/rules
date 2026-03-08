@@ -3,6 +3,7 @@
 %:
 	dh $@
 
-override_dh_auto_build:
-	cp debian/postinst.in debian/postinst
-	tail -n +2 update-ms-fonts >> debian/postinst
+override_dh_install:
+	dh_install
+	mkdir -p debian/ttf-mscorefonts-installer/usr/share/fonts/truetype/msttcorefonts/
+	find msfonts -maxdepth 1 -type f -iname '*.otf' -exec cp -t debian/ttf-mscorefonts-installer/usr/share/fonts/truetype/msttcorefonts/ {} + 2>/dev/null || true

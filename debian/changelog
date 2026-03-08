@@ -16,9 +16,14 @@ msttcorefonts (3.8.2) unstable; urgency=medium
   * Map emoji to Segoe UI Emoji with alias+accept fallback for all
     generic families (sans-serif, serif, monospace).
   * Redirect Apple Color Emoji and Noto Color Emoji to Segoe UI Emoji.
-  * Update font count and checksums to include all 196 font files.
+  * Update font count to include all 196 font files natively.
+  * Redesign package architecture for native DPkg payload installation.
+  * Optionally include .otf and .OTF fonts if present in msfonts dir.
+  * Drop obsolete update-ms-fonts script and cabfiles.sha256sums checks, relying
+    on native dpkg verification.
+  * Update po templates via debconf-updatepo.
 
- -- Antigravity <antigravity@gemini.ai>  Sun, 08 Mar 2026 05:10:00 +0000
+ -- Antigravity <antigravity@gemini.ai>  Sun, 08 Mar 2026 12:00:00 +0000
 
 msttcorefonts (3.8.1) unstable; urgency=medium
 

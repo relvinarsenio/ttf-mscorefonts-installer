@@ -1,14 +1,16 @@
 LOCAL INSTALLATION
 ------------------
 
-This version of the package installs Microsoft TrueType core fonts from a 
-local directory provided during the package build (msfonts/). These fonts 
-are sourced from a modern Windows 11 installation, providing a more 
-comprehensive and updated set than the original web core fonts.
+This version of the package installs Microsoft TrueType core fonts directly 
+from a local directory provided during the package build (msfonts/). The files 
+are natively compiled into the dpkg payload via debhelper.
 
-The fonts are stored in /usr/share/msttcorefonts and are symbolically 
-linked to /usr/share/fonts/truetype/msttcorefonts upon acceptance of the 
-Microsoft EULA.
+These fonts are sourced from a modern Windows 11 installation, providing a 
+more comprehensive and updated set than the original web core fonts.
+
+The fonts are placed natively in /usr/share/fonts/truetype/msttcorefonts 
+upon installation of the package. No network download or post-installation 
+scripting is required.
 
 LIBERATION FONTS
 ----------------
