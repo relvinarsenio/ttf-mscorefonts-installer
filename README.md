@@ -14,7 +14,7 @@ This is a heavily modified, offline-first installer for the Microsoft TrueType C
 
 ## Installation Instructions
 
-1. **Obtain the Fonts**: Copy the 196 core TrueType fonts from a Windows installation (e.g., `C:\Windows\Fonts`) into the `msfonts/` directory of this repository.
+1. **Obtain the Fonts**: Copy the core TrueType/OpenType fonts from a Windows installation (e.g., `C:\Windows\Fonts`) into the `msfonts/` directory of this repository. The builder supports `.ttf`, `.ttc`, and `.otf` files (case-insensitive).
 2. **Build the Package**:
    ```bash
    dpkg-buildpackage -us -uc -b
