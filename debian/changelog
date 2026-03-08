@@ -3,12 +3,19 @@ msttcorefonts (3.8.2) unstable; urgency=medium
   * Convert to local-only installation using font files in msfonts/.
   * Replace internet downloading with local fonts to eliminate wget 
     and cabextract dependencies.
-  * Implement SHA256 checksum verification for all 188 font files.
+  * Implement SHA256 checksum verification for all font files.
   * Use symbolic links for font installation to save disk space (~150MB).
   * Restore interactive EULA acceptance via debconf with ncurses UI 
     (whiptail) support.
-  * Add fontconfig support to prioritize Segoe UI Emoji for the 'emoji'
-    font family, ensuring a consistent emoji experience on Linux.
+  * Split fontconfig into 90-msttcorefonts-priority.conf (text fonts)
+    and 99-msttcorefonts-emoji.conf (emoji fallback).
+  * Map sans-serif to Segoe UI Variable + Segoe UI + Arial, matching 
+    Windows 11 default.
+  * Map system-ui to Segoe UI Variable + Segoe UI for CSS system-ui 
+    compatibility.
+  * Map emoji to Segoe UI Emoji with alias+accept fallback for all
+    generic families (sans-serif, serif, monospace).
+  * Redirect Apple Color Emoji and Noto Color Emoji to Segoe UI Emoji.
   * Update font count and checksums to include all 196 font files.
 
  -- Antigravity <antigravity@gemini.ai>  Sun, 08 Mar 2026 05:10:00 +0000
