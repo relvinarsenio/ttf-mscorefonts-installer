@@ -1,30 +1,43 @@
-# ttf-mscorefonts-installer (Local BYOF Edition)
+# ttf-mscorefonts-installer (Universal Windows 11 Edition)
 
-This is a heavily modified, offline-first installer for the Microsoft TrueType Core Fonts for Debian/Ubuntu systems.
+A modernized, offline-first Debian package for high-fidelity Microsoft Windows 11 font emulation on Linux.
 
-## Features
-* **Bring Your Own Files (BYOF)**: This installer does NOT download fonts from the internet. It requires you to provide your own original Windows font files (e.g., from a Windows 11 installation) due to Microsoft licensing restrictions.
-* **No Network Dependencies**: Removed dependencies on `wget` and `cabextract`.
-* **Symlink Optimization**: Installs fonts using symbolic links to save disk space.
-* **Advanced Fontconfig Priorities**: Includes custom fontconfig rules to perfectly emulate the Windows font fallback experience:
-  * Maps `sans-serif` to **Arial**.
-  * Maps `serif` to **Times New Roman**.
-  * Maps `monospace` to **Consolas** and **Courier New**.
-  * Provides perfect emoji fallback using **Segoe UI Emoji** without breaking standard text rendering.
+## 🚀 Overview
+This repository provides the packaging logic to build a native Debian `.deb` installer that brings the complete Windows 11 typography experience to your Linux desktop. Unlike the original package, this version is designed for a **local-only, native-payload** installation.
 
-## Installation Instructions
+## ✨ Key Features
+*   **DPkg Native Payload**: Fonts are bundled directly inside the `.deb` file. No scripts download anything during installation. This ensures a 100% reliable, offline, and atomic install.
+*   **Zero Dependencies**: Completely removed `wget`, `cabextract`, and `ca-certificates`.
+*   **Perfect Windows 11 Emulation**:
+    *   **UI & Sans-Serif**: Maps `system-ui` and `sans-serif` to **Segoe UI Variable** and **Segoe UI**.
+    *   **Emoji Superiority**: Full **Segoe UI Emoji** support with clean fallback logic that doesn't interfere with text.
+    *   **Modern Math**: Maps `math` to **Cambria Math** (Unicode-compliant) instead of the outdated Symbol font.
+    *   **Expanded Categories**: Mapped **cursive** (Comic Sans, Segoe Script, etc.), **fantasy** (Impact, Juice ITC), and **symbol** (Segoe UI Symbol, Webdings, Wingdings) to their official Windows counterparts.
+    *   **PostScript Fallbacks**: Soft-aliasing for `Helvetica` (Arial), `Times` (Times New Roman), and `Courier` (Courier New).
+*   **Clean System**: Includes logic to automatically purge legacy state files and stale configs from older installer versions.
 
-1. **Obtain the Fonts**: Copy the core TrueType/OpenType fonts from a Windows installation (e.g., `C:\Windows\Fonts`) into the `msfonts/` directory of this repository. The builder supports `.ttf`, `.ttc`, and `.otf` files (case-insensitive).
-2. **Build the Package**:
-   ```bash
-   dpkg-buildpackage -us -uc -b
-   ```
-3. **Install the Package**:
-   ```bash
-   sudo dpkg -i ../ttf-mscorefonts-installer_3.8.2_all.deb
-   ```
+## 🛠️ Installation
 
-## Licensing
+### 1. Prepare the Fonts
+Copy your collection of Windows 11 fonts (typically from `C:\Windows\Fonts`) into the `msfonts/` directory.
+The build system supports:
+*   `.ttf` / `.TTF` (TrueType)
+*   `.ttc` / `.TTC` (TrueType Collection)
+*   `.otf` / `.OTF` (OpenType)
 
-The packaging scripts and Debian metadata are provided under their respective open-source licenses. 
-**The Microsoft font files themselves are NOT included in this repository and must not be redistributed if you do not have the rights to do so.** You are responsible for acquiring legally licensed copies of the fonts for your own use.
+### 2. Build the Package
+From the root of the repository:
+```bash
+dpkg-buildpackage -us -uc -b
+```
+
+### 3. Install
+Install the resulting package:
+```bash
+sudo dpkg -i ../ttf-mscorefonts-installer_3.8.2_all.deb
+```
+
+## ⚖️ Licensing
+The packaging scripts and metadata are provided under their respective open-source licenses.
+
+**IMPORTANT**: The Microsoft font files themselves are proprietary. They are **NOT** included in this repository. You are responsible for acquiring legally licensed copies of these fonts for your own personal use. Redistribution of the resulting `.deb` package may be subject to Microsoft's EULA.
