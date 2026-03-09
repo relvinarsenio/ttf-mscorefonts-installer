@@ -13,6 +13,8 @@ Pre-Depends: ${misc:Pre-Depends}, debconf (>= 0.5) | debconf-2.0
 Depends: whiptail, ${misc:Depends}
 Recommends: fonts-liberation
 Provides: msttcorefonts
+Replaces: msttcorefonts
+Conflicts: msttcorefonts
 Multi-Arch: foreign
 Description: installer for Microsoft TrueType core fonts (local version)
  This package installs Microsoft TrueType fonts from a local copy
