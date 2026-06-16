@@ -34,10 +34,10 @@ dpkg-buildpackage -us -uc -b
 ### 3. Install
 Install the resulting package:
 ```bash
-sudo dpkg -i ../ttf-mscorefonts-installer_3.8.2_all.deb
+sudo dpkg -i ttf-mscorefonts-installer_uw11_all.deb
 ```
 
 ## ⚖️ Licensing
 The packaging scripts and metadata are provided under their respective open-source licenses.
 
-**IMPORTANT**: The Microsoft font files themselves are proprietary. They are **NOT** included in this repository. You are responsible for acquiring legally licensed copies of these fonts for your own personal use. Redistribution of the resulting `.deb` package may be subject to Microsoft's EULA.
+**IMPORTANT**: The Microsoft font files themselves are proprietary. You are responsible for acquiring legally licensed copies of these fonts for your own personal use. Redistribution of the resulting `.deb` package may be subject to Microsoft's EULA.
