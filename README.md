@@ -34,6 +34,15 @@ dpkg-buildpackage -us -uc -b
 ### 3. Install
 Install the resulting package:
 ```bash
+sudo dpkg -i ../ttf-mscorefonts-installer_3.8.2_all.deb
+```
+
+### 4. Or Install from GitHub Releases
+
+Download the latest prebuilt package from the GitHub Releases page:
+
+```bash
+wget https://github.com/relvinarsenio/ttf-mscorefonts-installer/releases/download/release-uw11/ttf-mscorefonts-installer_uw11_all.deb
 sudo dpkg -i ttf-mscorefonts-installer_uw11_all.deb
 ```
 
