@@ -1,19 +1,40 @@
-This is msttcorefonts, originally created by Eric Sharkey <sharkey@debian.org>
-on Sun Sep 17 13:34:12 EDT 2000.
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: msttcorefonts
+Source: local font files (sourced from Windows 11)
+Comment:
+ This is msttcorefonts, originally created by Eric Sharkey <sharkey@debian.org>
+ on Sun Sep 17 13:34:12 EDT 2000.
+Disclaimer:
+ This package is not part of the Debian GNU/Linux system but located in
+ the contrib section. This is because it installs fonts which are not 
+ under a free licence.
+ .
+ This version of the installer uses local font files (sourced from Windows 11) 
+ provided during the build process and does not require internet connectivity.
+ .
+ For licensing terms for the fonts themselves, please read the READ_ME!.gz
+ file located (after installation) in /usr/share/doc/ttf-mscorefonts-installer.
+ .
+ Special thanks to Chris Lawrence, who's xanim-modules installer provided
+ inspiration for this package.
 
-The packaging scripts are
-Copyright (C) 2000 Eric Sharkey, and subject to the GPL, version 2 or later.
-Special thanks to Chris Lawrence, who's xanim-modules installer provided
-inspiration for this package.
+Files: *
+Copyright: 2000 Eric Sharkey <sharkey@debian.org>
+License: GPL-2+
 
-The full text of the GPL is available in /usr/share/common-licenses/GPL
-
-This package is not part of the Debian GNU/Linux system but located in
-the contrib section. This is because it installs fonts which are not 
-under a free licence.
-
-This version of the installer uses local font files (sourced from Windows 11) 
-provided during the build process and does not require internet connectivity.
-
-For licensing terms for the fonts themselves, please read the READ_ME!.gz
-file located (after installation) in /usr/share/doc/ttf-mscorefonts-installer
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
