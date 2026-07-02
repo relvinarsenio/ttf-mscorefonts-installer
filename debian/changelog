@@ -22,6 +22,7 @@ msttcorefonts (3.8.2) unstable; urgency=medium
   * Drop obsolete update-ms-fonts script and cabfiles.sha256sums checks, relying
     on native dpkg verification.
   * Update po templates via debconf-updatepo.
+  * Add Indonesian debconf translation (id.po).
 
  -- Antigravity <antigravity@gemini.ai>  Sun, 08 Mar 2026 12:00:00 +0000
 

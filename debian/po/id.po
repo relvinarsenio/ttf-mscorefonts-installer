@@ -1,0 +1,281 @@
+# Indonesian translation for msttcorefonts.
+# Copyright (C) 2026 Antigravity <antigravity@gemini.ai>
+# This file is distributed under the same license as the msttcorefonts package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: msttcorefonts\n"
+"Report-Msgid-Bugs-To: msttcorefonts@packages.debian.org\n"
+"POT-Creation-Date: 2026-03-08 05:27-0700\n"
+"PO-Revision-Date: 2026-07-02 11:35+0000\n"
+"Last-Translator: Antigravity <antigravity@gemini.ai>\n"
+"Language-Team: Debian Indonesian Translators <debian-l10n-indonesian@lists.debian.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you accept the Microsoft End User License Agreement (EULA)?"
+msgstr "Apakah Anda menerima Perjanjian Lisensi Pengguna Akhir (EULA) Microsoft?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Microsoft TrueType core fonts for the Web End User License Agreement"
+msgstr "Perjanjian Lisensi Pengguna Akhir untuk Font Inti TrueType Microsoft untuk Web"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"IMPORTANT - READ CAREFULLY: This Microsoft End-User License Agreement "
+"(\"EULA\") is a legal agreement between you (either an individual or a "
+"single entity) and Microsoft Corporation for the Microsoft software "
+"accompanying this EULA, which includes computer software and may include "
+"associated media, printed materials, and \"on-line\" or electronic "
+"documentation (\"SOFTWARE PRODUCT\" or \"SOFTWARE\"). By exercising your "
+"rights to make and use copies of the SOFTWARE PRODUCT, you agree to be bound "
+"by the terms of this EULA. If you do not agree to the terms of this EULA, "
+"you may not use the SOFTWARE PRODUCT."
+msgstr ""
+"PENTING - BACA DENGAN SEKSAMA: Perjanjian Lisensi Pengguna Akhir Microsoft "
+"(\"EULA\") ini adalah perjanjian hukum antara Anda (baik individu maupun "
+"entitas tunggal) dan Microsoft Corporation untuk perangkat lunak Microsoft "
+"yang menyertai EULA ini, yang mencakup perangkat lunak komputer dan "
+"mungkin mencakup media terkait, materi cetak, serta dokumentasi "
+"\"on-line\" atau elektronik (\"PRODUK PERANGKAT LUNAK\" atau \"PERANGKAT LUNAK\"). "
+"Dengan menjalankan hak Anda untuk membuat dan menggunakan salinan PRODUK "
+"PERANGKAT LUNAK, Anda setuju untuk terikat oleh ketentuan-ketentuan EULA ini. "
+"Jika Anda tidak menyetujui ketentuan EULA ini, Anda tidak diperkenankan "
+"menggunakan PRODUK PERANGKAT LUNAK."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "The SOFTWARE PRODUCT is licensed, not sold."
+msgstr "PRODUK PERANGKAT LUNAK ini dilisensikan, bukan dijual."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "1. GRANT OF LICENSE. This EULA grants you the following rights:"
+msgstr "1. PEMBERIAN LISENSI. EULA ini memberi Anda hak-hak berikut:"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Installation and Use. You may install and use an unlimited number of\n"
+"  copies of the SOFTWARE PRODUCT."
+msgstr ""
+"  Instalasi dan Penggunaan. Anda dapat menginstal dan menggunakan salinan\n"
+"  PRODUK PERANGKAT LUNAK dalam jumlah yang tidak terbatas."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Reproduction and Distribution. You may reproduce and distribute an\n"
+"  unlimited number of copies of the SOFTWARE PRODUCT; provided that each\n"
+"  copy shall be a true and complete copy, including all copyright and\n"
+"  trademark notices, and shall be accompanied by a copy of this EULA.\n"
+"  Copies of the SOFTWARE PRODUCT may not be distributed for profit either\n"
+"  on a standalone basis or included as part of your own product."
+msgstr ""
+"  Reproduksi dan Distribusi. Anda dapat memproduksi ulang dan mendistribusikan\n"
+"  salinan PRODUK PERANGKAT LUNAK dalam jumlah tidak terbatas; dengan ketentuan\n"
+"  bahwa setiap salinan haruslah salinan yang asli dan lengkap, mencakup seluruh\n"
+"  pemberitahuan hak cipta dan merek dagang, dan harus disertai dengan salinan\n"
+"  EULA ini. Salinan PRODUK PERANGKAT LUNAK tidak boleh didistribusikan untuk\n"
+"  mencari keuntungan, baik sebagai produk yang berdiri sendiri maupun disertakan\n"
+"  sebagai bagian dari produk Anda sendiri."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS."
+msgstr "2. DESKRIPSI HAK-HAK DAN BATASAN-BATASAN LAINNYA."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Limitations on Reverse Engineering, Decompilation, and Disassembly. You\n"
+"  may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT,\n"
+"  except and only to the extent that such activity is expressly permitted by\n"
+"  applicable law notwithstanding this limitation."
+msgstr ""
+"  Batasan Rekayasa Balik, Dekompilasi, dan Pembongkaran. Anda tidak\n"
+"  diperkenankan melakukan rekayasa balik, dekompilasi, atau membongkar\n"
+"  PRODUK PERANGKAT LUNAK, kecuali dan hanya sejauh mana aktivitas tersebut\n"
+"  secara tegas diizinkan oleh hukum yang berlaku, meskipun terdapat batasan ini."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Restrictions on Alteration. You may not rename, edit or create any\n"
+"  derivative works from the SOFTWARE PRODUCT, other than subsetting when\n"
+"  embedding them in documents."
+msgstr ""
+"  Batasan Perubahan. Anda tidak diperkenankan mengganti nama, mengedit,\n"
+"  atau membuat karya turunan apa pun dari PRODUK PERANGKAT LUNAK, selain\n"
+"  melakukan *subsetting* saat menyematkannya ke dalam dokumen."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Software Transfer. You may permanently transfer all of your rights under\n"
+"  this EULA, provided the recipient agrees to the terms of this EULA."
+msgstr ""
+"  Transfer Perangkat Lunak. Anda dapat mentransfer seluruh hak Anda\n"
+"  berdasarkan EULA ini secara permanen, dengan ketentuan bahwa penerima\n"
+"  menyetujui persyaratan EULA ini."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"  Termination. Without prejudice to any other rights, Microsoft may\n"
+"  terminate this EULA if you fail to comply with the terms and conditions\n"
+"  of this EULA. In such event, you must destroy all copies of the SOFTWARE\n"
+"  PRODUCT and all of its component parts."
+msgstr ""
+"  Pengakhiran. Tanpa mengurangi hak-hak lainnya, Microsoft dapat\n"
+"  mengakhiri EULA ini jika Anda gagal mematuhi syarat dan ketentuan\n"
+"  EULA ini. Dalam keadaan demikian, Anda harus menghancurkan semua salinan\n"
+"  PRODUK PERANGKAT LUNAK beserta semua komponen bagiannya."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"3. COPYRIGHT. All title and copyrights in and to the SOFTWARE PRODUCT "
+"(including but not limited to any images, text, and \"applets\" incorporated "
+"into the SOFTWARE PRODUCT), the accompanying printed materials, and any "
+"copies of the SOFTWARE PRODUCT are owned by Microsoft or its suppliers. The "
+"SOFTWARE PRODUCT is protected by copyright laws and international treaty "
+"provisions. Therefore, you must treat the SOFTWARE PRODUCT like any other "
+"copyrighted material."
+msgstr ""
+"3. HAK CIPTA. Seluruh hak milik dan hak cipta di dalam dan atas PRODUK "
+"PERANGKAT LUNAK (termasuk tetapi tidak terbatas pada gambar, teks, dan \"applet\" "
+"apa pun yang tergabung dalam PRODUK PERANGKAT LUNAK), materi cetak yang "
+"menyertainya, serta setiap salinan PRODUK PERANGKAT LUNAK adalah milik "
+"Microsoft atau pemasoknya. PRODUK PERANGKAT LUNAK dilindungi oleh undang-undang "
+"hak cipta dan ketentuan perjanjian internasional. Oleh karena itu, Anda harus "
+"memperlakukan PRODUK PERANGKAT LUNAK seperti materi berhak cipta lainnya."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"4. U.S. GOVERNMENT RESTRICTED RIGHTS. The SOFTWARE PRODUCT and documentation "
+"are provided with RESTRICTED RIGHTS. Use, duplication, or disclosure by the "
+"Government is subject to restrictions as set forth in subparagraph (c)(1)"
+"(ii) of the Rights in Technical Data and Computer Software clause at DFARS "
+"252.227-7013 or subparagraphs (c)(1) and (2) of the Commercial Computer "
+"Software-Restricted Rights at 48 CFR 52.227-19, as applicable. Manufacturer "
+"is Microsoft Corporation/One Microsoft Way/Redmond, WA 98052-6399."
+msgstr ""
+"4. HAK TERBATAS PEMERINTAH A.S. PRODUK PERANGKAT LUNAK dan dokumentasinya "
+"disediakan dengan HAK TERBATAS. Penggunaan, duplikasi, atau pengungkapan "
+"oleh Pemerintah tunduk pada batasan-batasan sebagaimana diatur dalam "
+"subparagraf (c)(1)(ii) dari klausul Hak dalam Data Teknis dan Perangkat "
+"Lunak Komputer pada DFARS 252.227-7013 atau subparagraf (c)(1) dan (2) "
+"dari Hak Terbatas Perangkat Lunak Komputer Komersial pada 48 CFR 52.227-19, "
+"sebagaimana berlaku. Produsen adalah Microsoft Corporation/One Microsoft "
+"Way/Redmond, WA 98052-6399."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "5. LIMITED WARRANTY."
+msgstr "5. GARANSI TERBATAS."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"NO WARRANTIES. Microsoft expressly disclaims any warranty for the SOFTWARE "
+"PRODUCT. The SOFTWARE PRODUCT and any related documentation is provided \"as "
+"is\" without warranty of any kind, either express or implied, including, "
+"without limitation, the implied warranties or merchantability, fitness for a "
+"particular purpose, or noninfringement. The entire risk arising out of use "
+"or performance of the SOFTWARE PRODUCT remains with you."
+msgstr ""
+"TIDAK ADA GARANSI. Microsoft secara tegas menyangkal jaminan apa pun "
+"untuk PRODUK PERANGKAT LUNAK. PRODUK PERANGKAT LUNAK dan dokumentasi terkait "
+"disediakan \"apa adanya\" tanpa garansi dalam bentuk apa pun, baik tersurat "
+"maupun tersirat, termasuk, namun tidak terbatas pada, jaminan tersirat atas "
+"kelayakan untuk diperdagangkan, kesesuaian untuk tujuan tertentu, atau "
+"ketiadaan pelanggaran. Seluruh risiko yang timbul akibat dari penggunaan "
+"atau performa PRODUK PERANGKAT LUNAK sepenuhnya berada di tangan Anda."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"NO LIABILITY FOR CONSEQUENTIAL DAMAGES. In no event shall Microsoft or its "
+"suppliers be liable for any damages whatsoever (including, without "
+"limitation, damages for loss of business profits, business interruption, "
+"loss of business information, or any other pecuniary loss) arising out of "
+"the use of or inability to use this Microsoft product, even if Microsoft has "
+"been advised of the possibility of such damages. Because some states/"
+"jurisdictions do not allow the exclusion or limitation of liability for "
+"consequential or incidental damages, the above limitation may not apply to "
+"you."
+msgstr ""
+"TIDAK ADA TANGGUNG JAWAB ATAS KERUGIAN KONSEKUENSIAL. Dalam keadaan apa pun, "
+"Microsoft atau pemasoknya tidak bertanggung jawab atas kerugian apa pun "
+"(termasuk, namun tidak terbatas pada, ganti rugi atas hilangnya keuntungan "
+"bisnis, gangguan bisnis, hilangnya informasi bisnis, atau kerugian finansial "
+"lainnya) yang timbul akibat dari penggunaan atau ketidakmampuan menggunakan "
+"produk Microsoft ini, bahkan jika Microsoft telah diberi tahu mengenai "
+"kemungkinan terjadinya kerugian tersebut. Mengingat beberapa negara "
+"bagian/yurisdiksi tidak mengizinkan pengecualian atau pembatasan tanggung jawab "
+"untuk kerusakan konsekuensial atau insidental, batasan di atas mungkin tidak "
+"berlaku bagi Anda."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "6. MISCELLANEOUS."
+msgstr "6. LAIN-LAIN."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you acquired this product in the United States, this EULA is governed by "
+"the laws of the State of Washington."
+msgstr ""
+"Jika Anda memperoleh produk ini di Amerika Serikat, EULA ini diatur oleh "
+"hukum di Negara Bagian Washington."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If this product was acquired outside the United States, then local law may "
+"apply."
+msgstr ""
+"Jika produk ini diperoleh di luar Amerika Serikat, maka hukum setempat mungkin berlaku."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Should you have any questions concerning this EULA, or if you desire to "
+"contact Microsoft for any reason, please contact the Microsoft subsidiary "
+"serving your country, or write: Microsoft Sales Information Center/One "
+"Microsoft Way/Redmond, WA 98052-6399."
+msgstr ""
+"Jika Anda memiliki pertanyaan seputar EULA ini, atau jika Anda ingin "
+"menghubungi Microsoft untuk alasan apa pun, silakan hubungi anak perusahaan "
+"Microsoft yang melayani negara Anda, atau tulis surat ke: Microsoft Sales "
+"Information Center/One Microsoft Way/Redmond, WA 98052-6399."
