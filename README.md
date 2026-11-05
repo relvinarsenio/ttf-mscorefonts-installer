@@ -48,7 +48,12 @@ wget https://github.com/relvinarsenio/ttf-mscorefonts-installer/releases/downloa
 sudo dpkg -i ttf-mscorefonts-installer_uw11_all.deb
 ```
 
-## ⚖️ Licensing
-The packaging scripts and metadata are provided under their respective open-source licenses.
+## ⚖️ Licensing and Disclaimer
 
-**IMPORTANT**: The Microsoft font files themselves are proprietary. You are responsible for acquiring legally licensed copies of these fonts for your own personal use. Redistribution of the resulting `.deb` package may be subject to Microsoft's EULA.
+The packaging scripts and metadata in this repository are provided under their respective open-source licenses.
+
+The prebuilt `.deb` package contains proprietary Microsoft font files and is provided as-is for personal, non-commercial use. This project is unofficial and is not affiliated with, endorsed by, or supported by Microsoft.
+
+All Microsoft fonts, trademarks, and related rights remain the property of Microsoft and their respective copyright holders. Users are solely responsible for ensuring that their installation and use of the package complies with all applicable license agreements and laws.
+
+The maintainer provides no warranties and, to the extent permitted by applicable law, accepts no liability for any claims, damages, license violations, or other consequences arising from the use or redistribution of this package. Do not redistribute or use the package commercially without obtaining the necessary permissions from the applicable rights holders.
