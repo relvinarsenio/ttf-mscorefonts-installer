@@ -52,8 +52,6 @@ sudo dpkg -i ttf-mscorefonts-installer_uw11_all.deb
 
 The packaging scripts and metadata in this repository are provided under their respective open-source licenses.
 
-The prebuilt `.deb` package contains proprietary Microsoft font files and is provided as-is for personal, non-commercial use. This project is unofficial and is not affiliated with, endorsed by, or supported by Microsoft.
+The prebuilt `.deb` package contains proprietary Microsoft font files. Microsoft and the applicable rights holders retain all rights to those files. This project is unofficial and is not affiliated with, endorsed by, or supported by Microsoft.
 
-All Microsoft fonts, trademarks, and related rights remain the property of Microsoft and their respective copyright holders. Users are solely responsible for ensuring that their installation and use of the package complies with all applicable license agreements and laws.
-
-The maintainer provides no warranties and, to the extent permitted by applicable law, accepts no liability for any claims, damages, license violations, or other consequences arising from the use or redistribution of this package. Do not redistribute or use the package commercially without obtaining the necessary permissions from the applicable rights holders.
+The package is provided as-is, without warranties. Users are responsible for ensuring that their installation and use comply with applicable licenses and laws.
